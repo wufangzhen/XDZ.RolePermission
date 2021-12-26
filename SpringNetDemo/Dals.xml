@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.net
+		http://www.springframework.net/xsd/spring-objects.xsd">
+  <object name="UserInfoDal"      type="SpringNetDemo.UserInfoDal, SpringNetDemo">  
+    <constructor-arg index="0" value="helloworld"/>
+    <property name="Name" value="通过配置文件注入的属性值"/>
+  </object>
+  <object name="UserInfoBll"      type="SpringNetDemo.UserInfoBll, SpringNetDemo">
+    <property name="UserInfoDal" ref="UserInfoDal"/>
+  </object>
+</objects>

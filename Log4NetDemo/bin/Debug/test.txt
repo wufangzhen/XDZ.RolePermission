@@ -1,0 +1,3 @@
+2018-10-22 12:00:45,627 [1] INFO  DemoWriter - ddd
+2018-10-22 12:00:45,638 [1] DEBUG DemoWriter - sssss调试级别的消息
+2018-10-22 12:00:45,638 [1] ERROR DemoWriter - ccccc错误级别的消息

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--为Common注入属性-->
+  <object name="CacheHelper" type="XDZ.RolePermission.Common.Cache.CacheHelper, XDZ.RolePermission.Common" singleton="false" >
+    <property name="CacheWriter" ref="CacheWriter" />
+  </object>
+
+  <object name="CacheWriter" type="XDZ.RolePermission.Common.Cache.MemcacheWriter, XDZ.RolePermission.Common" singleton="false" >
+
+  </object>
+
+  
+</objects>
+

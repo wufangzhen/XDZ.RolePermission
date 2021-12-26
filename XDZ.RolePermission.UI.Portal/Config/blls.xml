@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--为控制器注入属性-->
+  <object name="UserInfoBll" type="XDZ.RolePermission.BLL.UserInfoBll, XDZ.RolePermission.BLL" singleton="false" >
+  </object>
+  <object name="OrderInfoBll" type="XDZ.RolePermission.BLL.OrderInfoBll, XDZ.RolePermission.BLL" singleton="false" >
+  </object>
+  <object name="ActionInfoBll" type="XDZ.RolePermission.BLL.ActionInfoBll, XDZ.RolePermission.BLL" singleton="false" > </object>
+  <object name="RoleInfoBll" type="XDZ.RolePermission.BLL.RoleInfoBll, XDZ.RolePermission.BLL" singleton="false" >
+ 
+  </object>
+  
+  
+  <object name="R_UserInfo_ActionInfoBll" type="XDZ.RolePermission.BLL.R_UserInfo_ActionInfoBll, XDZ.RolePermission.BLL" singleton="false" >
+
+  </object>
+</objects>

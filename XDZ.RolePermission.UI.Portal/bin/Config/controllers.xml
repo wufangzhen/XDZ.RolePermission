@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--为控制器注入属性-->
+  <object type="XDZ.RolePermission.UI.Portal.Controllers.UserInfoController, XDZ.RolePermission.UI.Portal" singleton="false" >
+    <property name="UserInfoBll" ref="UserInfoBll" />
+    <property name="RoleInfoBll" ref="RoleInfoBll" />
+    <property name="ActionInfoBll" ref="ActionInfoBll" />
+    <property name="R_UserInfo_ActionInfoBll" ref="R_UserInfo_ActionInfoBll" />
+  </object>
+ <object type="XDZ.RolePermission.UI.Portal.Controllers.OrderInfoController, XDZ.RolePermission.UI.Portal" singleton="false" >
+    <property name="OrderInfoBll" ref="OrderInfoBll" />
+  </object>
+  <object type="XDZ.RolePermission.UI.Portal.Controllers.ActionInfoController, XDZ.RolePermission.UI.Portal" singleton="false" >
+    <property name="ActionInfoBll" ref="ActionInfoBll" />
+    <property name="RoleInfoBll" ref="RoleInfoBll" />
+  </object>
+  <object type="XDZ.RolePermission.UI.Portal.Controllers.UserLoginController, XDZ.RolePermission.UI.Portal" singleton="false" >
+    <property name="UserInfoBll" ref="UserInfoBll" />
+  </object>
+  <object type="XDZ.RolePermission.UI.Portal.Controllers.RoleInfoController, XDZ.RolePermission.UI.Portal" singleton="false" >
+    <property name="RoleInfoBll" ref="RoleInfoBll" />
+  </object>
+<object type="XDZ.RolePermission.UI.Portal.Controllers.HomeController, XDZ.RolePermission.UI.Portal" singleton="false" >
+    <property name="UserInfoBll" ref="UserInfoBll" />
+  <property name="ActionInfoBll" ref="ActionInfoBll" />
+  </object>
+</objects>
+
